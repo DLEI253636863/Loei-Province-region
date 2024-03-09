@@ -1,4 +1,4 @@
-# http://www.gnu.org/software/automake
+# http://www.gnu.org/software/automakehttps://improved-disco-5gvx457jrpq627gqr-41309.app.github.dev/
 
 Makefile.in
 /ar-lib
@@ -9,7 +9,7 @@ Makefile.in
 .deps/
 .dirstamp
 
-# http://www.gnu.org/software/autoconf
+# http://www.gnu.org/software/autoconfhttps://improved-disco-5gvx457jrpq627gqr-41309.app.github.dev/
 
 autom4te.cache
 /autoscan.log
