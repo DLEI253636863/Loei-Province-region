@@ -6,3 +6,4 @@ https://sg.docworkspace.com/d/sIE_rzPvfAaDNzK8G
 https://sg.docworkspace.com/d/sINLrzPvfAc_RzK8G
 https://acrobat.adobe.com/link/home/
 https://acrobat.adobe.com/id/urn:aaid:sc:AP:5d9e3980-5c80-4b32-b03f-1ab285b16f0a
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiZlpDtnPSEAxWxyDgGHU9QCUUQFnoECEIQAQ&url=http%3A%2F%2Fwww.oic.go.th%2FINFOCENTER10%2F1020%2F&usg=AOvVaw0KXPPdo6SdnwftWuWncVYt&opi=89978449พันจ่าอากาศโทวิศิษฎ์ ทองโม้ การไฟฟ้าจังหวัดเลย
