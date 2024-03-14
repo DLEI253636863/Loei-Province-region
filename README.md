@@ -5,3 +5,4 @@ http://www.oic.go.th/INFOCENTER10/1020/ การไฟฟ้าอภิบา�
 https://sg.docworkspace.com/d/sIE_rzPvfAaDNzK8G
 https://sg.docworkspace.com/d/sINLrzPvfAc_RzK8G
 https://acrobat.adobe.com/link/home/
+https://acrobat.adobe.com/id/urn:aaid:sc:AP:5d9e3980-5c80-4b32-b03f-1ab285b16f0a
