@@ -4,3 +4,4 @@ Departments and sections of employees of Loei Province, Provincial Electricity A
 http://www.oic.go.th/INFOCENTER10/1020/ การไฟฟ้าอภิบาลข้อมูล พันจ่าวิศิษฎ์ ทองโม้
 https://sg.docworkspace.com/d/sIE_rzPvfAaDNzK8G
 https://sg.docworkspace.com/d/sINLrzPvfAc_RzK8G
+https://acrobat.adobe.com/link/home/
