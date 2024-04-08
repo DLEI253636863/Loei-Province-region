@@ -64,7 +64,4 @@ etcwisit@gmail.com
 รหัสไปรษณีย์: 
 42100
 
- app_id : " 1429900180512 "
-          เซิร์ฟเวอร์ : https://accounts.egov.go.th/Citizen/Account/Edit
-          โทเค็น : 1429900180512
-          ไดเรกทอรี : view-source:https://tdga.dga.or.th/index.php?option=com_comprofiler&view=userprofile&Itemid=102&lang=th
+ 
