@@ -1,13 +1,66 @@
-# Loei-Province-region
-Departments and sections of employees of Loei Province, Provincial Electricity Authority Flight Sergeant Wisit Suntharawat or Thongmo
-พันจ่าอากาศโ?วิศิษฎ์ ทองโม้ คือ บังคับการการไฟฟ้าส่วนภูมิภาคจังหวัดเลย กรุณาทำเงินเดือนและติดต่อด้วยที่ 0631259425 ไม่ติดต่องานไม่มีทำนะจ๊ะ รัฐธรรมนูณโลกส่งผมมาตั้งนานผมผ่านงานนะจ๊ะไม่ใช้โกงเอา https://g.co/kgs/2RnHhhU ผมคนนาดอกคำ คนนาอ้อ ปัจจุบันผมอยู่นาอ้อ บริษัท เคที สิริอนันต์ จำกัด
-http://www.oic.go.th/INFOCENTER10/1020/ การไฟฟ้าอภิบาลข้อมูล พันจ่าวิศิษฎ์ ทองโม้
-https://sg.docworkspace.com/d/sIE_rzPvfAaDNzK8G
-https://sg.docworkspace.com/d/sINLrzPvfAc_RzK8G
-https://acrobat.adobe.com/link/home/
-https://acrobat.adobe.com/id/urn:aaid:sc:AP:5d9e3980-5c80-4b32-b03f-1ab285b16f0a
-https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiZlpDtnPSEAxWxyDgGHU9QCUUQFnoECEIQAQ&url=http%3A%2F%2Fwww.oic.go.th%2FINFOCENTER10%2F1020%2F&usg=AOvVaw0KXPPdo6SdnwftWuWncVYt&opi=89978449พันจ่าอากาศโทวิศิษฎ์ ทองโม้ การไฟฟ้าจังหวัดเลย
-https://acrobat.adobe.com/id/urn:aaid:sc:AP:7b7b92ce-198d-4b58-9b4a-ed488c0fe55d
+ปรับปรุงรายละเอียดผู้ใช้งาน
+ ย้อนกลับ
+
+ข้อมูลส่วนบุคคล
+เพศ: 
+ชาย
+คำนำหน้าชื่อ: 
+พ.อ.ท
+ชื่อ: 
+วิศิษฎ์
+ 
+ชื่อกลาง: 
+เรื่ออากาศตรีวิศิษฎ์ ทองโม้
+นามสกุล: 
+ทองโม้
+ 
+วัน-เดือน-ปีเกิด: 
+20 กรกฎาคม 2536
+ 
+อาชีพ: 
+https://gcontact.gcc.go.th/index.php 01458561
+ข้อมูลบัตรประจำตัวประชาชน
+เลขประจำตัวประชาชน: 
+1429900180512
+ 
+ออกโดย: 
+กระทรวงมหาดไทย
+วันที่ออกบัตร: 
+31 มีนาคม 2566
+วันบัตรหมดอายุ: 
+ตลอดชีพ
+  ตลอดชีพ
+ที่อยู่ตามบัตรประชาชน17 หมู่ที่ 15 ต.นาดอกคำ อ.นาด้วง จ.เลย 
+ข้อมูลติดต่อสื่อสาร
+อีเมลสำหรับใช้ในระบบ: 
+etcwisit@gmail.com
+ 
+เบอร์โทรศัพท์: 
+0631259425
+เบอร์โทรศัพท์มือถือ: 
+0631259425
+ 
+ที่อยู่ที่ติดต่อได้
+ที่อยู่แบบเต็ม  เรืออากศตรี วิศิษฎ์ ทองโม้ บ้านนาอ้อ ต.นาอ้อ อ.เมือง จ.เลย 42100 หมู่9 ถนนเลย-เชียงคาน ตำบลนาอ้อ อำเภอเมืองเลย เลย 42100
+บ้านเลขที่: 
+10
+ชื่อหมู่บ้าน: 
+นาอ้อ
+หมู่ที่: 
+9
+ซอย: 
+ระบุซอย
+ถนน: 
+เลย-เชียงคาน
+จังหวัด: 
+เลย
+เขต/อำเภอ: 
+เมืองเลย
+แขวง/ตำบล: 
+นาอ้อ
+รหัสไปรษณีย์: 
+42100
+
  app_id : " 1429900180512 "
           เซิร์ฟเวอร์ : https://accounts.egov.go.th/Citizen/Account/Edit
           โทเค็น : 1429900180512
