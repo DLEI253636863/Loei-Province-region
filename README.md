@@ -1,4 +1,7 @@
-ปรับปรุงรายละเอียดผู้ใช้งาน
+ app_id : "ThaiID "
+          เซิร์ฟเวอร์ :view-source:https://tdga.dga.or.th/index.php?option=com_comprofiler&view=userprofile&Itemid=102&lang=th
+          โทเค็น : digitalofficef003@gmail.com 
+          ไดเรกทอรี : ./https://accounts.egov.go.th/Citizen/Account/Edit
  ย้อนกลับ
 
 ข้อมูลส่วนบุคคล
