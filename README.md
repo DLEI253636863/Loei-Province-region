@@ -1,4 +1,4 @@
- app_id : "ThaiID "
+ app_id : "Digital ID "https://www.bora.dopa.go.th/service/
           เซิร์ฟเวอร์ :view-source:https://tdga.dga.or.th/index.php?option=com_comprofiler&view=userprofile&Itemid=102&lang=th
           โทเค็น : digitalofficef003@gmail.com 
           ไดเรกทอรี : ./https://accounts.egov.go.th/Citizen/Account/Edit
