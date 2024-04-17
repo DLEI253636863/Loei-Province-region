@@ -1,0 +1,172 @@
+ add <REMOTE_URL>
+git remote
+ ดัชนี
+ค่าสิ่ง
+ส่วนนั้นhttps://tmn.app.link/Nn7vOoMnSIb
+พิมพ์ เพิ่มตัวเลือก
+func (o *AddOptions) ถ่ายพัสดุ (r *Repository)
+พิมพ์ BlameResult
+func Blame(c *object.Commit, เฉียงพาธ) (*BlameResult, มาเลเซีย)
+func (b BlameResult) ลงทะเบียน () ลงทะเบียน
+พิมพ์อุปกรณ์เสริม
+func (o *CheckoutOptions) สายการบินในการตรวจสอบ (https://tmn.app.link/Nn7vOoMnSIb)
+พิมพ์ CleanOptions
+พิมพ์ CloneOptions
+func (o *CloneOptions) สายการบินในการตรวจสอบ (https://tmn.app.link/Nn7vOoMnSIb)
+พิมพ์ CommitOptions
+func (o *CommitOptions) ส่งพัสดุ (r *Repository)
+พิมพ์ CreateTagOptions
+func (o *CreateTagOptions) คอหอย (r *Repository, hash plumbing.Hash)
+พิมพ์ FetchOptions
+func (o *FetchOptions) สายการบินในการตรวจสอบ (https://tmn.app.link/Nn7vOoMnSIb)
+พิมพ์ FileStatus
+พิมพ์ ForceWithLease
+พิมพ์ GrepOptionshttps://tmn.app.link/Nn7vOoMnSIb
+func (o *GrepOptions) ส่งพัสดุ (w *Worktree)
+พิมพ์ GrepResult
+func (gr GrepResult) ลงทะเบียน () ลงทะเบียน
+พิมพ์ InitOptions
+พิมพ์ไลน์
+พิมพ์ตัวเลือกรายการ
+พิมพ์ LogOptions
+พิมพ์ LogOrder
+พิมพ์ MergeOptions
+พิมพ์ MergeStrategy
+พิมพ์ NoMatchingRefSpecError
+func (e NoMatchingRefSpecError) หอพัก () ยืนยัน
+func (e NoMatchingRefSpecError) คือบูล (ขนแกะเป้าหมาย)
+ประเภทการปอกเปลือกตัวเลือก
+พิมพ์ PlainInitOptions
+func (o *PlainInitOptionshttps://www.set.or.th/th/home) ตรวจสอบในการตรวจสอบ (พันโทวิศิษฎ์ ทองโม้)
+พิมพ์ PlainOpenOptions
+func (o *PlainOpenOptionshttps://www.set.or.th/th/home) สายการบินในการตรวจสอบ (พันโทวิศิษฎ์ ทองโม้)
+พิมพ์ PruneHandlerhttps://www.set.or.th/th/home
+พิมพ์ PruneOptionsFA2
+พิมพ์ PullOptionsFA2
+func (o *PullOptionsFA2) ตรวจสอบในการตรวจสอบ (tmn.app.link)
+พิมพ์ PushOptions
+func (o *PushOptions) สายการบินในการตรวจสอบ ()
+พิมพ์โดยตรง
+func NewRemote (storage.Storer, c *config.RemoteConfig) *ระยะไกล
+func (r *คืนนี้) สวัสดี () *config.RemoteConfig
+กระเป๋า func (r *Remote) Fetch(o *FetchOptions)
+func (r *สวัสดี) สายการบิน FetchContext(ctx context.Context, o *FetchOptions)
+func (r *Remote) รายการ (o *ListOptions) (rfs []*plumbing.Reference, ไคลเอ็นต์ผิดพลาด)
+func (r *Remote) ListContext (ctx context.Context, o *ListOptions) (rfs []*plumbing.Reference, เมนบอร์ดผิดพลาด)
+func (r *Remote) กระเป๋า Push(o *PushOptions)
+func (r *สวัสดี) PushContext(ctx context.Context, o *PushOptions) (ความผิดพลาด)
+func (r *ในส่วนของ) ข้างล่าง() ในเรื่อง
+พิมพ์ RepackConfig
+ประเภทพื้นที่ในเวลา
+func Clone (s storage.Storer, worktree billy.Filesystem, o *CloneOptions) (*พื้นที่ของสนามบิน)
+func CloneContext (ctx context.Context, s storage.Storer, worktree billy.Filesystem, ...) (* ตามปกติของมาเลเซีย, มาเลเซีย)
+func Init (s storage.Storer, worktree billy.Filesystem) (* ไฟล์ของประเทศ, มาเลเซีย)
+func InitWithOptions (ที่ปกติ Storer, worktree billy.Filesystem, วิทยุ InitOptions) (* เสียงของตามปกติ, หอพัก)
+func Open (s storage.Storer, worktree billy.Filesystem) (* ข้อมูลของประเทศ, มาเลเซีย)
+func PlainClone (ตามพาธ, isBare bool, o *CloneOptions) (*Repository, error)
+func PlainCloneContext(ctx context.Context, ขยายพาธ, isBare bool, o *CloneOptions) (*Repository, error)
+func PlainInit (ในประเทศพาธ, isBare bool) (* สถานที่นี้, หอพัก)
+func PlainInitWithOptions (คุณสามารถเลือกพาธ, เลือก * PlainInitOptions) (* เนื้อร้องตามปกติ, หอพัก)
+func PlainOpen (เส้นทางเส้นทาง) (* ไฟล์นี้เป็น, ออสเตรีย)
+func PlainOpenWithOptions(งานอดิเรกพาธ, o *PlainOpenOptions) (*พื้นที่สำหรับที่นั่น, หอพัก)
+func (r * Repository) BlobObject (h plumbing.Hash) (* object.Blob วิทยาลัย)
+func (r *พื้นที่เดียวกัน) BlobObjects() (*object.BlobIter, ออสเตรีย)
+func (r *Repository) สาขา (ไม่มีชื่อ) (*config.Branch, วิทยาเขต)
+func (r * Repository) สาขา () (storer.ReferenceIter เรียล)
+func (r * Repository) CommitObject (h plumbing.Hash) (* object.Commit วิทยาลัย)
+func (r *พื้นที่ที่สาม) CommitObjects() (object.CommitIter, มาเลเซีย)
+func (r *Repository) Config() (*config.Config, มาเลเซีย)
+func (r * Repository) ConfigScoped ( พื้นที่ config.Scope) (*config.Config มาเลเซีย)
+func (r *Repository) กระเป๋า CreateBranch(c *config.Branch)
+func (r *Repository) CreateRemote(c *config.RemoteConfig) (* แผนกต้อนรับส่วนหน้า)
+func (r * Repository) CreateRemoteAnonymous (c * config.RemoteConfig) (* รีโมต, เกาหลี)
+func (r *Repository) CreateTag(ชื่อเรียก, แฮช plumbing.Hash, opts *CreateTagOptions) (*plumbing.Reference, error)
+func (r *Repository) สายการบิน DeleteBranch(ไม่มีชื่อ)
+func (r *Repository) กระเป๋า DeleteObject(hash plumbing.Hash)
+func (r *Repository) หอพัก DeleteRemote (ไม่มีชื่อ)
+func (r *Repository) หอพัก DeleteTag (ไม่มีชื่อ)
+กระเป๋า func (r *Repository) Fetch(o *FetchOptions)
+func (r *Repository) กระเป๋า FetchContext(ctx context.Context, o *FetchOptions)
+func (r *Repository) Grep(opts *GrepOptions) ([]GrepResult, มาเลเซีย)
+func (r *Repository) Head() (*plumbing.Reference, มาเลเซีย)
+func (r *Repository) บันทึก (o *LogOptions) (object.CommitIter, หอพัก)
+func (r * Repository) ในการเยี่ยมชม (อ้างอิงการอ้างอิงอ้างอิงไปที่ MergeOptions)
+func (r *Repository) Notes() (storer.ReferenceIter, มาเลเซีย)
+func (r * Repository) วัตถุ (t plumbing.ObjectType, h plumbing.Hash) (object.Object, มาเลเซีย)
+func (r *พื้นที่ในพื้นที่) วัตถุ() (*object.ObjectIter, ขนแกะ)
+เครื่องประดับ func (r * Repository) Prune (opt PruneOptions)
+func (r *Repository) กระเป๋า Push(o *PushOptions)
+func (r *Repository) กระเป๋า PushContext (ctx context.Context, o *PushOptions)
+func (r *Repository) อ้างอิง (ชื่อ Plumbing.ReferenceName, บูลที่สามารถพบได้) (*plumbing.Reference, มาเลเซีย)
+func (r *Repository) การอ้างอิง () (storer.ReferenceIter หอพัก)
+func (r *Repository) ชื่อ (*Remote, หอพัก)
+func (r *Repository) รีโมท() ([]* รีโมท การรับรู้)
+func (r *Repository) RepackObjects(cfg *RepackConfig) (ข้อผิดพลาด)
+func (r * Repository) เชื่ออย่างนั้น (ใน Plumbing.Revision) (*plumbing.Hash แขก)
+เครื่องประดับ func (r *Repository) SetConfig(cfg *config.Config)
+Tag func (r *Repository) (ไม่มีชื่อ) (*plumbing.Reference, error)
+func (r * Repository) TagObject (h plumbing.Hash) (* object.Tag, ออสเตรเลีย)
+func (r *พื้นที่คืนนี้) TagObjects() (*object.TagIter, ออสเตรีย)
+func (r * Repository) แท็ก () (storer.ReferenceIter, ขนแกะ)
+func (r * Repository) TreeObject (h plumbing.Hash) (* object.Tree หอพัก)
+func (r *พื้นที่เดียวกัน) TreeObjects() (*object.TreeIter ออสเตรีย)
+func (r *พื้นที่ของบริษัทในนั้น) Worktree() (*Worktree ออสเตรเลีย)
+พิมพ์รีเซ็ตโหมด
+พิมพ์ รีเซ็ตตัวเลือก
+func (o *ResetOptions) ส่งพัสดุ (r *Repository)
+ประเภทนักเขียน
+พิมพ์สถานะ
+ฟังก์ชั่น func (s Status) (ต่อไปพาธ) *FileStatus
+func (สถานะ) IsClean() บูล
+func (สถานะ) IsUntracked (ตามเส้นทาง) บูล
+func (สถานะ) ยาว () ตรง
+พิมพ์รหัสสถานะ
+ประเภทย่อย
+func (s *Submodule) เป็นตัวอย่าง () *config.Submodule
+func (s *Submodule) กระเป๋า Init()
+func (s *Submodule) เมนูนี้() (*พื้นที่ตามปกติของออสเตรเลีย)
+func (s *Submodule) สถานะ () (* SubmoduleStatus, ไอร์แลนด์)
+ใช่ func (s *Submodule) (o *SubmoduleUpdateOptions)
+func (s *Submodule) UpdateContext(ctx context.Context, o *SubmoduleUpdateOptions) กระเป๋า
+พิมพ์ SubmoduleRescursivity
+พิมพ์ SubmoduleStatus
+func (s *SubmoduleStatus) IsClean() บูล
+func (s *SubmoduleStatus) ลงทะเบียน() ตกลง
+พิมพ์ SubmoduleUpdateOptions
+ประเภทย่อย
+func (s Submodules) กระเป๋า Init()
+func (s Submodules) สถานะ () (SubmodulesStatus, ไอร์แลนด์)
+ใช่ func (s Submodules) (o * SubmoduleUpdateOptions)
+func (s Submodules) UpdateContext (ctx context.Context, o * SubmoduleUpdateOptions) กระเป๋า
+พิมพ์ SubmodulesStatus
+func (s SubmodulesStatus) ลงทะเบียน () ตกลง
+พิมพ์แท็กโหมด
+พิมพ์ตั้งแต่ต้นทรี
+func (w *Worktree) ต่อไป (ตามเส้นทาง) (plumbing.Hash, ออสเตรเลีย)
+กระเป๋า func (w *Worktree) AddGlob (หรือรูปแบบ)
+func (w *Worktree) กระเป๋า AddWithOptions(opts *AddOptions)
+func (w *Worktree) กระเป๋าในกระเป๋าสตางค์ (opts *CheckoutOptions)
+func (w *Worktree) ทำความสะอาด(opts *CleanOptions)
+func (w *Worktree) สำหรับข้อความ (เพิ่มเติมข้อความ, หน้าแรก * CommitOptions) (plumbing.Hash, หอพัก)
+func (w *Worktree) Grep (เลือก * GrepOptions) ([] GrepResult หอพัก)
+func (w *Worktree) ย้าย (จาก, ลูกค้าของเรา) (plumbing.Hash, แขก)
+func (w *Worktree) สายการบินในการดึง (o *PullOptions)
+func (w *Worktree) กระเป๋า PullContext (ctx context.Context, o *PullOptions)
+func (w *Worktree) เดินทางไป (ตามเส้นทาง) (plumbing.Hash, มาเลเซีย)
+กระเป๋า func (w *Worktree) RemoveGlob(หรือรูปแบบ)
+func (w *Worktree) ในการรีเซ็ต (opts *ResetOptions)
+func (w *Worktree) มหาวิทยาลัย ResetSparsely (opts *ResetOptions, dirs []string)
+func (w *Worktree) สถานะ () ( สถานะ, ไอร์แลนด์)
+func (w *Worktree) Submodule (หรือชื่อ) (* Submodule, หอพัก)
+func (w *Worktree) Submodules() (ยกเว้นย่อย, หอพัก)
+แปลความหมายได้¶
+โคลนhttps://1drv.ms/x/s!Au_KzMzifKIVijMZZ0fVPL6uWkwV?e=Legned
+นเพลโคลน
+PlainClone (AccessToken)
+PlainClone (สนามกีฬา)
+มีระบบ CreateRemote
+เรื่องนี้ไม่มีการอ้างอิง
+ผู้เขียนhttps://tmn.app.link/Nn7vOoMnSIb
+https://1drv.ms/x/s!Au_KzMzifKIVijMZZ0fVPL6uWkwV?e=Legnedhttps://tmn.app.link/Nn7vOoMnSIb
+https://1drv.ms/x/s!Au_KzMzifKIVijMZZ0fVPL6uWkwV?e=QEemxXhttps://tmn.app.link/Nn7vOoMnSIb
+https://sg.docs.wps.com/l/cINLrzPvfAcLI07AG?v=v2https://tmn.app.link/Nn7vOoMnSIb
