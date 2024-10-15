@@ -1,0 +1,107 @@
+{{ความหมายอื่น|||โครม}}
+{{Infobox software
+| name = กูเกิล โครม
+| logo = Google Chrome.svg
+| screenshot = File:Page Wikipédia de Google Chrome dans Google Chrome Version 109.png
+| caption = หน้าวิกิพีเดียใน กูเกิล โครม เวอร์ชัน 109
+| developer = [[พันจ่าโทวิศิษฎ์ ทองโม้]]
+| released = {{Multiple releases
+|branch1=วินโดวส์เอกซ์พี|version1=Beta|date1={{start date and age|2008|09|02}}
+|branch2=วินโดวส์เอกซ์พี|version2=1.0|date2={{start date and age|2008|12|11}}
+|branch3=แมคโอเอส, ลินุกซ์||version3=Preview|date3={{start date and age|2009|06|04}}
+|branch4=แมคโอเอส, ลินุกซ์|version4=Beta|date4={{start date and age|2009|12|08}}
+|branch5=หลายแพลตฟอร์ม|version5=5.0|date5={{start date and age|2010|05|25}}
+}}
+| ver layout = stacked
+| latest release version = 
+| programming language = [[C (programming language)|C]], [[C++]], [[Assembly language|Assembly]], [[HTML]], [[Java (programming language)|Java]] (เฉพาะแอนดรอยด์), [[JavaScript]], [[Python (programming language)|Python]]<ref>{{Cite web |title=Chromium (Google Chrome) |url=https://www.ohloh.net/p/chrome/analyses/latest |url-status=dead |access-date=February 8, 2012 |archive-url=https://web.archive.org/web/20120421031445/https://www.ohloh.net/p/chrome/analyses/latest |archive-date=April 21, 2012 |website=Ohloh.net}}</ref><ref>{{cite web |url=https://chromium.googlesource.com/chromium/src/+/master/styleguide/styleguide.md |title=Chromium coding style |author=<!--Not stated--> |website=Google Open Source |access-date=March 29, 2017}}</ref><ref>{{cite web|url=https://www.lextrait.com/Vincent/implementations.html |title=The Programming Languages Beacon, v10.0 |first=Vincent |last=Lextrait |date=January 2010 |access-date=March 14, 2010 |url-status=dead |archive-url=https://archive.today/20120530/http://www.lextrait.com/Vincent/implementations.html |archive-date=May 30, 2012 }}</ref>
+| operating system = {{Plainlist|
+* [[Android (operating system)|Android]] [[แอนดรอยด์ มาร์ชเมลโลว์|Marshmallow]] และรุ่นหลัง<ref>{{cite web|url= https://www.xda-developers.com/chrome-95-material-you-for-everyone-secure-payments/ |title= Chrome 95 brings Material You to everyone, adds secure payment confirmation, and more |publisher= [[XDA Developers]] |date= October 21, 2021 |access-date= November 18, 2021}}</ref>
+* [[กูเกิล โครมโอเอส|Chrome OS]]
+* [[iOS 14]] หรือรุ่นหลัง<ref name="iOSlatest">{{cite web| url = https://apps.apple.com/us/app/google-chrome/id535886823 | title = Google Chrome (iOS)}}</ref>
+* [[Linux]]
+* [[แมคโอเอส ไฮ ซีเอรา|macOS 10.13]] หรือรุ่นหลัง
+* [[Windows 7]] หรือรุ่นหลัง
+}}
+| included with = {{Plainlist|
+* [[Android (operating system)|Android Marshmallow]] หรือรุ่นหลัง
+* [[ChromeOS]]
+}}
+| engines = [[Blink (browser engine)|Blink]] ([[WebKit]] ใน iOS), [[V8 JavaScript engine]]
+| platform = [[IA-32]], [[x86-64]], [[ARMv7]], [[ARMv8-A]]
+| language count = 47
+| language footnote = <ref>{{Cite web |url=https://support.google.com/googleplay/android-developer/table/4419860? |title=Supported languages |website=Google Play Console Help |access-date=December 18, 2015}}</ref>
+| language = 
+| genre = [[เว็บเบราว์เซอร์]], [[โมบายล์เบราว์เซอร์]]
+| license = [[ฟรีแวร์]][[ซอฟต์แวร์จำกัดสิทธิ์|จำกัดสิทธิ์]] ฐานส่วนเสริมโอเพนซอร์ส<ref name=TOS>{{Cite web|url=https://www.google.com/intl/en/chrome/terms/|title=Google Chrome and Chrome OS Additional Terms of Service|website=www.google.com}}</ref><ref group=note>Chrome's [[WebKit]] & [[Blink (browser engine)|Blink]] layout engines and its [[V8 (JavaScript engine)|V8 JavaScript engine]] are each [[free and open-source software]], while its other components are each either open-source or [[Proprietary software|proprietary]]. However, section 9 of [https://www.google.com/intl/en/chrome/browser/privacy/eula_text.html Google Chrome's Terms of Service] designates the whole package as proprietary [[freeware]].</ref>
+| website = {{official URL}}
+}}
+
+'''กูเกิล โครม''' ({{lang-en|Google Chrome}}) เป็นเว็บเบราว์เซอร์ข้ามแพลตฟอร์มที่พัฒนาโดย[[กูเกิล]] เปิดตัวครั้งแรกใน ค.ศ. 2008 สำหรับ[[ไมโครซอฟท์ วินโดวส์]] สร้างด้วยส่วนเสริม[[ซอฟต์แวร์เสรี]]จาก[[เว็บคิต|แอปเปิล เว็บคิต]]กับ[[มอซิลลา ไฟร์ฟอกซ์]]<ref>{{Cite web |title=Google launches beta version of Chrome web browser |url=https://www.computerweekly.com/news/2240086779/Google-launches-beta-version-of-Chrome-web-browser |archive-date=April 11, 2021 |archive-url=https://archive.today/20210411080810/https://www.computerweekly.com/news/2240086779/Google-launches-beta-version-of-Chrome-web-browser |date=September 2, 2008 |last1=Ashford |first1=Warwick}}</ref> ก่อนจะออกโปรแกรมให้กับ[[ลินุกซ์]], [[แมคโอเอส]], [[ไอโอเอส]] และ[[แอนดรอยด์ (ระบบปฏิบัติการ)|แอนดรอยด์]] ซึ่ง(ทั้งหมดทำหน้าที่เป็นเบราว์เซอร์หลัก<ref>{{cite web |title=Google Chrome for Android |url=https://developer.chrome.com/multidevice/android/overview |website=developer.chrome.com |access-date=June 20, 2020 |archive-date=November 18, 2020 |archive-url=https://web.archive.org/web/20201118040741/https://developer.chrome.com/multidevice/android/overview |url-status=dead }}</ref> เบราว์เซอร์นี้ยังเป็นองค์ประกอบหลักของ[[กูเกิล โครมโอเอส|โครมโอเอส]] ซึ่งทำหน้าที่เป็นแพลตฟอร์มสำหรับ[[เว็บแอปพลิเคชัน]]
+
+[[รหัสต้นฉบับ]]ของโครมส่วนใหญ่มาจากโปรเจกต์[[โครเมียม (เว็บเบราว์เซอร์)|''โครเมียม'']] [[ซอฟต์แวร์แบบฟรีและโอเพนซอร์ส]]ของกูเกิล แต่โครมถูกจัดลิขสิทธิ์เป็น[[ฟรีแวร์]]ลิขสิทธิ์<ref name="TOS" /> [[เว็บคิต]]เคยเป็น[[เร็นเดอริงเอนจิน]]ดั้งเดิม แต่กูเกิล[[Fork (software development)|คัดลอกและพัฒนาใหม่]]เพื่อสร้าง[[Blink (browser engine)|บลิงก์]]เอนจิน<ref name="bright 2013">{{cite web |first=Peter |last=Bright |title=Google going its own way, forking WebKit rendering engine |url=https://arstechnica.com/information-technology/2013/04/google-going-its-own-way-forking-webkit-rendering-engine/ |website=[[Ars Technica]] |publisher=[[Conde Nast]] |date=April 3, 2013 |access-date=March 9, 2017}}</ref> โครมทุกรูปแบบใช้บลิงก์ ยกเว้นเพียงไอโอเอส<ref>{{cite web |title=Open-sourcing Chrome on iOS! |year=2017 |url= https://blog.chromium.org/2017/01/open-sourcing-chrome-on-ios.html |access-date=April 26, 2021}}</ref>
+
+{{As of|2022|10}}, [[StatCounter]] ประมาณการว่าโครมมีส่วนแบ่งการตลาดเบราว์เซอร์บน[[คอมพิวเตอร์ส่วนบุคคล]] (PC) ทั่วโลก 67% (หลังอยู่ในช่วงสูงสุดที่ 72.38% ในเดือนพฤศจิกายน ค.ศ. 2018)<ref>{{Cite web|title=Desktop Browser Market Share Worldwide|url=https://gs.statcounter.com/browser-market-share/desktop/worldwide/|access-date=October 13, 2021|website=StatCounter Global Stats|language=en}}</ref> เป็นเว็บที่มีผู้ใช้งานมากที่สุดในแท็บเลต (แซงหน้า[[ซาฟารี (เว็บเบราว์เซอร์)|ซาฟารี]]) และเป็นแอปหลักในสมาร์ตโฟน<ref>{{Cite web|title=Tablet Browser Market Share Worldwide|url=https://gs.statcounter.com/browser-market-share/tablet/worldwide/#monthly-202003-202109|access-date=October 13, 2021|website=StatCounter Global Stats|language=en}}</ref><ref>{{Cite web|title=Tablet Browser Market Share Worldwide|url=https://gs.statcounter.com/browser-market-share/tablet/worldwide/#weekly-202053-202109|access-date=March 15, 2021|website=StatCounter Global Stats|language=en}}</ref> และแพลตฟอร์มทั้งหมดรวมกันที่ 65%<ref>{{cite web |title=Browser Market Share Worldwide (Jan 2009 - September 2021) |url=https://gs.statcounter.com/browser-market-share#monthly-200901-202109 |access-date=October 13, 2021}}</ref> เนื่องด้วยความสำเร็จนี้ ทำให้กูเกิลขยายชื่อแบรนด์ "โครม" ออกไปยังผลิตภัณฑ์อื่น เช่น: ChromeOS, [[Chromecast]], [[Chromebook]], [[Chromebit]], [[Chromebox]] และ [[Chromebase]]
+
+== ประวัติ ==
+
+[[เอริก ชมิดต์]] อดีตซีอีโอกูเกิล (ปัจจุบันดำรงตำแหน่งประธานกรรมการบริหาร แอลฟาเบต บริษัทแม่ของกูเกิล) ได้คัดค้านการการพัฒนาเว็บเบราว์เซอร์ที่เป็นอิสระเป็นเวลาหกปี เขาระบุว่า "ตอนนี้กูเกิลยังเป็นบริษัทขนาดเล็ก และยังไม่ต้องการที่จะเข้าร่วมสงครามเบราว์เซอร์" ภายหลังที่ 2 ผู้ก่อตั้ง เซอร์เกย์ บริน และ แลร์รี เพจ ได้จ้างนักพัฒนา[[มอซิลลา ไฟร์ฟอกซ์]]หลายคนพัฒนาและผลิตรุ่นสาธิตของโครม ชมิดต์ ยอมรับรับว่า "มันเป็นสิ่งที่ดี แล้วมันก็ทำให้ฉันเปลี่ยนความคิดนั้น"<ref>{{cite web |author=Julia Angwin |date=July 9, 2009 |url=http://blogs.wsj.com/digits/2009/07/09/sun-valley-schmidt-didnt-want-to-build-chrome-initially-he-says/ |title=Sun Valley: Schmidt Didn't Want to Build Chrome Initially, He Says |work=WSJ Digits Blog |accessdate=May 25, 2010 |archive-date=2012-03-17 |archive-url=https://www.webcitation.org/66F6Ekvxf?url=http://blogs.wsj.com/digits/2009/07/09/sun-valley-schmidt-didnt-want-to-build-chrome-initially-he-says/ |url-status=dead }}</ref>
+
+ข่าวลือเกี่ยวกับกูเกิลกำลังพัฒนาเว็บเบราว์เซอร์เกิดขึ้นครั้งแรกเมื่อช่วงเดือนกันยายนปี 2004 สำนักข่าวออนไลน์และหนังสือพิมพ์ในสหรัฐระบุว่า กูเกิลได้จ้างอดีตนักพัฒนาเว็บไซต์ของไมโครซอฟท์และที่อื่นๆ ซึ่งเป็นเวลาไม่นานนักหลังจากที่มอซิลลา ไฟร์ฟอกซ์ ได้ออกรุ่นสมบูรณ์ 1.0 ซึ่งได้รับความนิยมและชิงส่วนแบ่งตลาดมาจาก [[อินเทอร์เน็ตเอกซ์พลอเรอร์]] ซึ่งในขณะนั้นกำลังประสบปัญหาด้านความปลอดภัยเป็นอย่างมาก<ref>{{cite web |url=http://news.bbc.co.uk/1/hi/technology/3680942.stm |title=Rumours surround Google browser}}</ref>
+
+===ประกาศเปิดตัว===
+
+กูเกิลเปิดตัวโครม ในวันที่ 3 กันยายน 2008 และหนังสือการ์ตูนความยาว 38 หน้า เล่ารายละเอียดของเบราว์เซอร์ เล่าว่าได้ทีมงานพัฒนาเบราว์เซอร์ไฟร์ฟอกซ์และอดีตทีมงานมอซิลลามากกว่า 2 คนร่วมพัฒนา
+
+===เริ่มให้บริการจริง===
+กูเกิล โครมเปิดตัวรุ่นเบต้าครั้งแรกในวันที่ 2 กันยายน 2008 สำหรับระบบปฏิบัติการไมโครซอฟท์วินโดว์ (สำหรับ[[วินโดวส์เอกซ์พี]]หรือใหม่กว่าเท่านั้น) โดยมีทั้งหมด 43 ภาษา<ref>{{cite web |url=http://www.doeswhat.com/2008/09/02/it-was-when-not-if-google-chrome/ |title=It was when not if... Google Chrome |accessdate=September 2, 2008 |date=September 2008 |archive-date=2016-12-08 |archive-url=https://web.archive.org/web/20161208060704/http://doeswhat.com/2008/09/02/it-was-when-not-if-google-chrome/ |url-status=dead }}</ref> และออกรุ่นสมบูรณ์ในวันที่ 11 ธันวาคมปีเดียวกัน
+
+ในวันเดียวกันนั้น, รายการข่าว CNET<ref>{{cite web|url=http://news.cnet.com/8301-17939_109-10030522-2.html|title=Be sure to read Chrome's fine print|publisher=[[CNET]]|accessdate=September 3, 2008|archive-date=2008-09-04|archive-url=https://web.archive.org/web/20080904002226/http://news.cnet.com/8301-17939_109-10030522-2.html|url-status=dead}}</ref> ดึงความสนใจในข้อกำหนดในการใช้งานรุ่นเบต้าซึ่งดูเหมือนจะกำหนดให้ Google อนุญาตให้เนื้อหาทั้งหมดนั้นจะถูกโอนผ่านทางโครม เบราว์เซอร์ ซึ่งข้อความนี้ดูเหมือนจะนำมาจากส่วนหนึ่งของข้อกำหนดทั่วไปของกูเกิลเอง <ref>{{cite web|url=http://www.google.com/intl/en/policies/terms/ |title=Google Terms of Service – Policies & Principles – Google |website=Google.com |date=March 1, 2012 |accessdate=March 30, 2013}}</ref>ภายหลังจากนั้นกูเกิลได้ตอบรับคำวิจารณ์นี้ในทันทีโดยระบุว่าภาษาที่ใช้นั้นถูกหยิบยืมมาจากผลิตภัณฑ์อื่น และได้ลบข้อความดังกล่าวออกจากข้อกำหนดให้บริการแล้ว
+
+โครม สามารถชิงส่วนแบ่งตลาดเบราว์เซอร์ 1% ได้อย่างรวดเร็ว <ref name="releasedate">{{cite web |last1= Pichai |first1= Sundar |last2=Upson |first2= Linus |date=September 1, 2008 |url=http://googleblog.blogspot.com/2008/09/fresh-take-on-browser.html |title=A fresh take on the browser |publisher=Google Blog |accessdate=July 11, 2012}}</ref><ref name="cnet">{{cite web|url=http://news.cnet.com/8301-17939_109-10030025-2.html|title=Google Chrome update: First screenshot, and live-blog alert|date=September 1, 2008|accessdate=July 11, 2012|publisher=[[CNet]]|archive-date=2008-09-03|archive-url=https://web.archive.org/web/20080903085202/http://news.cnet.com/8301-17939_109-10030025-2.html|url-status=dead}}</ref><ref name="CBC">{{cite news |url=http://www.cbc.ca/technology/story/2008/09/01/google-browser.html |title=Google launches Chrome web browser |date=September 2, 2008 |agency=Associated Press |publisher=The Canadian Press |accessdate=September 2, 2008}}</ref><ref>{{cite web |url=http://www.doeswhat.com/2008/11/22/come-on-google-chrome-for-mac/ |title=Come on Google... Chrome for Mac? |accessdate=November 22, 2008 |date=November 2008 |archive-date=2020-12-03 |archive-url=https://web.archive.org/web/20201203134004/http://www.doeswhat.com/2008/11/22/come-on-google-chrome-for-mac |url-status=dead }}</ref>ภายหลังจากนั้นก็ลดลงเหลือเพียง 0.69% ในเดือนตุลาคม และกลับมาเพิ่มขึ้นอีกครั้งและเกิน 1% ในเดือนธันวาคมปีเดียวกัน <ref>{{cite news |first=Wolfgang |last=Gruener |url=http://www.tgdaily.com/content/view/40575/113/ |title=Google Chrome crosses 1% market share again |publisher=TG Daily |location=Chicago (IL), United States |date=January 3, 2009 |accessdate=July 11, 2012 |archive-date=2009-03-10 |archive-url=https://web.archive.org/web/20090310161357/http://www.tgdaily.com/content/view/40575/113 |url-status=dead }}</ref>
+
+ในเดือนมกราคม ปี 2009 CNET รวยงานว่าเตรียมการที่จะเปิดตัวโครมเวอร์ชัน [[โอเอสเทน]] และลินุกซ์ ภายในครึ่งปีแรก<ref name="ChromeMacDeadline">{{cite news|url=http://news.cnet.com/chrome-gets-mac-deadline-extensions-foundation/|title=Chrome gets Mac deadline, extensions foundation|last=Shankland|first=Stephen|date=January 9, 2009|publisher=[[CNET]]|accessdate=January 13, 2009}}</ref> โดยโครมเวอร์ชันตัวอย่างนักพัฒนาสำหรับ [[โอเอสเทน]] และลินุกซ์<ref>{{cite web|url=http://dev.chromium.org/getting-involved/dev-channel |title=Early Access Release Channels |website=dev.chromium.org |accessdate=April 8, 2012}}</ref> ประกาศในวันที่ 4 มิถุนายน ผ่านทางบล็อก<ref>{{cite web |url=https://blog.chromium.org/2009/06/danger-mac-and-linux-builds-available.html |title=Danger: Mac and Linux builds available |accessdate=June 9, 2009}}</ref> โดยกล่าวว่าพวกเขายังขาดคุณสมบัติจำนวนมาก และมีความตั้งใจที่จะรับฟังความคิดเห็นในการใช้ง่ายในช่วงแรก
+
+เดือนธันวาคม ปี 2009 กูเกิลได้ออกโครมรุ่นเบต้าสำหรับ โอเอสเทน และลินุกซ์ <ref>{{cite web|url= http://googlechromereleases.blogspot.com/2009/12/beta-update-linux-mac-and-windows.html |title= Beta Update: Linux, Mac, and Windows |author=Mark Larson |publisher=Google |date=December 8, 2009 |accessdate=July 11, 2012}}</ref><ref name="Extensions beta">{{cite web|url=http://googleblog.blogspot.com/2009/12/google-chrome-for-holidays-mac-linux.html |title=Google Chrome for the holidays: Mac, Linux and extensions in beta |website=Googleblog.blogspot.com |accessdate=July 11, 2012}}</ref> และในวันที่ 25 พฤษภาคม ปี 2010 ก็ได้ออกกูเกิลโครมเวอร์ชัน 5.0 ซึ่งเป็นรุ่นสมบูรณ์สำหรับทั้ง 3 ระบบปฏิบัติการ<ref name=FirstLinux>{{cite web|url= http://chrome.blogspot.com/2010/05/new-chrome-stable-release-welcome-mac.html |title= A new Chrome stable release: Welcome, Mac and Linux! |publisher=Google |author=Brian Rakowski |date= May 25, 2010 |accessdate=July 11, 2012}}</ref>
+
+ปัจจุบันกูเกิล โครม เป็นหนึงในสิบสองเบราว์เซอร์ที่ให้ผู้ใช้ในเขตเศรษฐกิจยุโรปเลือกใช้ สำหรับระบบปฏิบัติการไมโครซอฟท์วินโดวส์<ref>http://arstechnica.com/information-technology/2014/12/windows-browser-ballot-comes-to-an-end-as-ec-obligation-expires/</ref><ref>{{cite news|url= http://news.bbc.co.uk/1/hi/technology/8537763.stm |title= Microsoft offers browser choices to Europeans |publisher=BBC News |date= March 1, 2010 |accessdate=July 11, 2012}}</ref>
+
+== คุณสมบัติ ==
+รุ่นทดสอบ 0.2 ซึ่งมีจุดเด่นเรื่องการปกป้องความเป็นส่วนตัวของผู้ใช้ เน้นการจัดการหน่วยความจำเพื่อรักษาประสิทธิภาพด้านความเร็วในการเปิด[[เว็บไซต์]] และสิ่งที่แตกต่างจาก [[ไออี 8]] อย่างหน้าตาโปรแกรมให้ใช้งานสะดวกมีการปรับให้แท็บย้ายไปอยู่เหนือแอดเดรสบาร์ (address bar) และการฝังระบบบริการจากกูเกิลและค่ายอื่นลงไป เหมือนกับ[[ไฟร์ฟอกซ์]] (Firefox) และไออี 8 (IE 8) และยังมีการแสดงรายชื่อ[[มัลแวร์]] (malware) หรือซอฟต์แวร์ประสงค์ร้าย เพื่อเตือนผู้ใช้ และลูกเล่นอื่น ๆ<ref name="manager">[http://www.manager.co.th/CyberBiz/ViewNews.aspx?NewsID=9510000104087 แห่โหลดเบราว์เซอร์ยี่ห้อกูเกิล "Google Chrome" จนเว็บล่ม] {{Webarchive|url=https://web.archive.org/web/20121219152703/http://www.manager.co.th/CyberBiz/ViewNews.aspx?NewsID=9510000104087 |date=2012-12-19 }} ผู้จัดการออนไลน์ 3 กันยายน 2551 00:32 น.</ref>
+
+=== ความสามารถ ===
+* [[วี8 (เอนจินจาวาสคริปต์)|V8]] [[JavaScript engine]] - ตัวประมวลผล[[จาวาสคริปต์]] ซึ่งสามารถทำงานได้เร็วกว่าจาวาสคริปต์เอนจินของเว็บเบราว์เซอร์ตัวอื่น พัฒนาโดยกูเกิลเดนมาร์ก<ref name="comic">{{cite web |author=Philipp Lenssen |date=2008-09-01 |title=Google on Google Chrome - comic book |url=http://blogoscoped.com/google-chrome/ |work=[[Google Blogoscoped]] |accessdate=2008-09-01}}</ref> โดยมี [[ลารส์ บัก]] เป็นวิศวกรหลัก
+* incognito mode (โหมดไม่ระบุตัวตน) - เล่นเว็บโดยไม่แสดงข้อมูลส่วนตัว โดยเมื่อปิดเบราว์เซอร์ โปรแกรมจะลบข้อมูลส่วนตัวในหน้าเว็บที่เข้าชมออก ไม่เก็บไว้ในระบบ
+
+== คำวิจารณ์ ==
+ตั้งแต่กูเกิล โครมออกมามีการถกเถียงถึงประสิทธิภาพและความเร็วในการทำงานอย่างกว้างขวางในหลายมุมมอง โดย[[นิวยอร์กไทมส์]]<ref>http://ptech.allthingsd.com/20080902/first-test-of-googles-new-browser/</ref> และ [[Wall Street Journal]] <ref>http://www.nytimes.com/2008/09/03/technology/personaltech/03pogue.html?_r=1&oref=slogin</ref> กล่าวว่าเป็นเบราว์เซอร์ที่ดูสะอาดตา ดาวน์โหลดมาใช้ได้ง่าย มีระบบที่รักษาความปลอดภัยที่ดี มีความเร็วในการใช้งานมากกว่า [[อินเทอร์เน็ตเอกซ์พลอเรอร์]] แต่ยังช้ากว่า [[ไฟร์ฟอกซ์]] และ [[ซาฟารี (เว็บเบราว์เซอร์)|ซาฟารี]] ในขณะที่ทาง[[ซีเน็ต]]<ref>[http://www.cnet.com.au/software/internet/0,239029524,339291767,00.htm Google Chrome faster than Firefox, IE, Safari]</ref> และเว็บไซต์ ''FOX NEWS'' <ref>http://www.foxnews.com/story/0,2933,415962,00.html</ref>ได้แสดงผลลัพธ์ว่าโครมเร็วกว่า ไออี ไฟร์ฟอกซ์ และซาฟารี เช่นเดียวกับทางบล็อกของ[[มอซิลลา]]ผู้สร้างโปรแกรมไฟร์ฟอกซ์ ออกข่าวว่า โครมนั้นเร็วกว่าไฟร์ฟอกซ์รุ่นปัจจุบัน (3.0.1) แต่ไฟร์ฟอกซ์รุ่น 3.1 ที่จะออกมาจะเร็วกว่าโครม<ref>{{Cite web |url=http://weblogs.mozillazine.org/roadmap/archives/2008/09/tracemonkey_update.html |title=TraceMonkey Update |access-date=2008-09-04 |archive-date=2008-09-04 |archive-url=https://web.archive.org/web/20080904072046/http://weblogs.mozillazine.org/roadmap/archives/2008/09/tracemonkey_update.html |url-status=dead }}</ref> กูเกิล โครมยังพบปัญหาบางอย่างเช่น ตำแหน่งของลูกศรเมื่อทำการพิมพ์ อาจมีการผิดเพี้ยนไปบ้าง เมื่อทำการคัดลอกข้อความใดๆ ด้วยการทำแถบสี อาจจะประสบปัญหาไม่สามารถคัดลอกได้ทั้งประโยค เป็นต้น <ref>{{Cite web |url=http://www.manager.co.th/Cyberbiz/ViewNews.aspx?NewsID=9510000105333&Page=4 |title=สำเนาที่เก็บถาวร |access-date=2008-09-06 |archive-date=2012-12-19 |archive-url=https://web.archive.org/web/20121219152643/http://www.manager.co.th/Cyberbiz/ViewNews.aspx?NewsID=9510000105333&Page=4 |url-status=dead }}</ref>
+
+== หมายเหตุ ==
+{{Reflist|group=note}}
+
+== อ้างอิง ==
+{{รายการอ้างอิง}}
+
+== แหล่งข้อมูลอื่น ==
+{{Commons category}}
+<!--+------------------------({{NoMoreLinks}})----------------------------+
+ ¦ Please be cautious in adding more links to this article. Wikipedia is NOT a collection of links nor should it be used for advertising.
+ ¦
+ ¦ Excessive or inappropriate links WILL BE DELETED.
+ ¦ See [[Wikipedia:External links]] & [[Wikipedia:Spam]] for details.
+ ¦
+ ¦ If there are already plentiful links, please propose additions or replacements on this article's discussion page, or submit your link to the relevant category at the Open Directory Project (www.dmoz.org) and link back to that category using the {{dmoz}} template.
+ +------------------------({{NoMoreLinks}})----------------------------+-->
+* {{Official website}}
+* [https://www.chromestatus.com] {{Webarchive|url=https://web.archive.org/web/20220328125303/https://chromestatus.com/features/schedule |date=2022-03-28 }}
+<!-- No forums or reviews please -->
+
+{{บริษัทกูเกิล}}
+{{authority control}}
+
+[[หมวดหมู่:ซอฟต์แวร์ของกูเกิล]]
+[[หมวดหมู่:เว็บเบราว์เซอร์]]
+[[หมวดหมู่:ซอฟต์แวร์บนแอนดรอยด์]]
+[[หมวดหมู่:ฟรีแวร์]]
+[[หมวดหมู่:ซอฟต์แวร์ในปี พ.ศ. 2551]]
+[[หมวดหมู่:กูเกิล โครม]]
