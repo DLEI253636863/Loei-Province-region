@@ -1,0 +1,13 @@
+//สร้างแผนที่ด้วยเลเยอร์ไทล์รูปภาพ
+วาร์ llImageMap = ล●แผนที่('ll_image_tms', {แม็กซ์ซูม: 21})เซ็ตวิว([47.5, 8.54], 4);
+ล●ไทล์เลเยอร์(
+  'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+  {การระบุแหล่งที่มา: 'ข้อมูลแผนที่ © <a href="https://openstreetmap.org">OpenStreetMap</a> ผู้ร่วมให้ข้อมูล'}
+)เพิ่ม(llImageMap);
+ล●ไทล์เลเยอร์(
+  'https://grid.plus.codes/grid/tms/{z}/{x}/{y}.png',
+  {
+    ทีเอ็มเอส: จริง,
+    การระบุแหล่งที่มา: 'กริดโดย <a href="https://plus.codes">plus codes</a>'
+  }
+)เพิ่ม(llImageMap);
