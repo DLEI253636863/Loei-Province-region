@@ -1,0 +1,219 @@
+เวอร์ชัน?xml="1.0" encoding="UTF-8"?>
+เวอร์ชัน rss = "2.0" xmlns:dc = "http://purl.org/dc/elements/1.1/"
+  <ช่องทาง>
+    <title>สถานะ RIPE NCC - ประวัติเหตุการณ์</title>
+    http://status.ripe.net/ลิงค์
+    <description>หน้าสถานะ</description>
+    <pubDate>พ. 16 ต.ค. 2567 05:00:02 +0000</pubDate>
+    <รายการ>
+      <title>การโยกย้ายฐานข้อมูลแบ็กเอนด์ RIPEstat: ลดความพร้อมใช้งานของข้อมูลประวัติสำหรับชุดข้อมูลบางชุด</title>
+      <คำอธิบาย>
+<p><strong>นี่เป็นกิจกรรมตามกำหนดการ ต.ค. <var data-var='date'>16</var>, <var data-var='time>08:00</var> - <var data-var='time>11:00</var> UTC</strong></p><p><small>ต.ค. <var data-var='date>15</var>, <var data-var='time>16:31</var> UTC</small><br><strong>Scheduled</strong> - เมื่อเดือนที่แล้ว เราประกาศว่าเรากำลังเตรียมการโยกย้ายระบบฐานข้อมูลเบื้องหลัง RIPEstat ไปยังคลัสเตอร์ใหม่ หลังจากประสบปัญหาหลายประการ เราจึงตัดสินใจเลื่อนการโยกย้ายชั่วคราว เนื่องจากข้อมูลในอดีตจำนวนมากจะไม่สามารถใช้งานได้ การดำเนินการดังกล่าวจะส่งผลกระทบอย่างมากต่อผู้ใช้ภายในและภายนอกที่ใช้งานข้อมูลในอดีตเหล่านี้อย่างต่อเนื่อง <br /><br />หลังจากบรรเทาปัญหาดังกล่าวหลายประการแล้ว ในวันพุธที่ 16 ตุลาคม เราจะดำเนินการโยกย้ายต่อไป โดยจะต้องหยุดให้บริการเป็นเวลาสองชั่วโมง ระหว่างที่หยุดให้บริการนี้ เราจะทำการประเมินภายในเพื่อยืนยันว่าทุกอย่างทำงานได้ตามที่คาดหวัง *โปรดทราบว่าข้อมูลที่มีอยู่จะมีผลกระทบต่อข้อมูล* ข้อมูลจะไม่สูญหาย อย่างไรก็ตาม ข้อมูลในบางช่วงจะไม่พร้อมใช้งานจนกว่าเราจะเสร็จสิ้นขั้นตอนการเติมข้อมูลย้อนหลัง<br /><br />หากเราพบปัญหาที่ไม่คาดคิด เราจะพยายามดำเนินการย้ายข้อมูลให้เสร็จสิ้นอีกครั้งในวันพฤหัสบดีที่ 17 ตุลาคม<br /><br />## ขั้นตอนของเราจนถึงตอนนี้<br /><br />เราได้โอนและเติมข้อมูลย้อนหลังให้มากที่สุดเท่าที่จะทำได้ อย่างไรก็ตาม ประวัติที่ยาวนาน (ซึ่งใช้เพื่อติดตามประวัติของทรัพยากรเก่าก่อนที่จะได้รับการสนับสนุน) สำหรับชุดข้อมูลที่จำเป็นนั้นพร้อมใช้งาน<br /><br />เมื่อเทียบกับการอัปเดตครั้งก่อน เราสามารถโอนประวัติทั้งหมดของชุดข้อมูลหลายชุดได้ อย่างไรก็ตาม ชุดข้อมูลสองชุดไม่มีประวัติครบถ้วน การเรียกใช้ API ที่ใช้ชุดข้อมูลที่มีประวัติลดลง ได้แก่:<br /> * bgp-state, bgp-updates, bgplay: ข้อมูลพร้อมใช้งานในช่วงสามเดือนที่ผ่านมา<br /> * asn-neighbours (เฉพาะ API, วิดเจ็ตไม่ได้รับผลกระทบ), asn-neighbours-history: ข้อมูลพร้อมใช้งานบางส่วน<br /> * เริ่มตั้งแต่วันที่ 31-12-2011: พร้อมใช้งาน<br /> * 1-1-2012 - 31-12-2012: ไม่เปลี่ยนแปลง, ไม่พร้อมใช้งาน<br /> * 1-1-2013 - 31-12-2020: พร้อมใช้งาน<br /> * 1-1-2024 - ปัจจุบัน: พร้อมใช้งาน<br /><br />เมื่อเทียบกับการอัปเดตครั้งก่อน เราได้โอนประวัติทั้งหมดสำหรับตารางเดียว และนำเข้าข้อมูลประวัติส่วนใหญ่สำหรับข้อมูลละแวกใกล้เคียง ASN ขณะนี้เรากำลังกรอกข้อมูลประวัติที่ขาดหายไปสำหรับข้อมูลย่าน ASNการประมาณการปัจจุบันที่ดีที่สุดของเราคือ *กระบวนการนี้จะใช้เวลา 36 วัน* <br /><br />โปรดแจ้งให้เราทราบหากคุณมีกรณีการใช้งานสำหรับประวัติข้อมูล bgp-state/bgp-updates/bgplay ที่ยาวนาน เราจะตัดสินใจว่าจะเติมข้อมูลนี้กลับเข้าไปที่ส่วนไหนและด้วยลำดับความสำคัญใด โดยขึ้นอยู่กับข้อมูลที่เราได้รับ</p> </description>
+      <pubDate>พ. 16 ต.ค. 2567 08:00:00 +0000</pubDate>
+      <maintenanceEndDate>พุธ, 16 ต.ค. 2024 11:00:00 +0000</maintenanceEndDate>
+      ลิงค์https://status.ripe.net/incidents/v9qb64jrqdpf
+      สถานะ:https://status.ripe.net/incidents/v9qb64jrqdpf
+    </รายการ>
+    <รายการ>
+      <title>การกำหนดค่า HTTPS ของฐานข้อมูล RIPE</title>
+      <คำอธิบาย>
+<p><strong>นี่เป็นกิจกรรมตามกำหนดการ ต.ค. <var data-var='date'>16</var>, <var data-var='time>06:00</var> - <var data-var='time>07:00</var> UTC</strong></p><p><small>ต.ค. <var data-var='date> 8</var>, <var data-var='time>14:25</var> UTC</small><br><strong>Scheduled</strong> - เราวางแผนที่จะใช้การเปลี่ยนแปลงการกำหนดค่าที่ส่งผลต่อโปรโตคอล HTTPS สำหรับบริการฐานข้อมูล RIPE เราไม่คาดว่าจะมีการหยุดให้บริการใดๆ (การสอบถามหรือการอัปเดต)</p> </description>
+      <pubDate>พ. 16 ต.ค. 2567 06:00:00 +0000</pubDate>
+      <maintenanceEndDate>พุธ, 16 ต.ค. 2024 07:00:00 +0000</maintenanceEndDate>
+      <ลิงค์>https://status.ripe.net/incidents/qg82c490q8zw</ลิงค์>
+      <guid>https://status.ripe.net/incidents/qg82c490q8zw</guid>
+    </รายการ>
+    <รายการ>
+      <title>ปัญหาการเข้าถึงพอร์ทัล LIR และ SSO</title>
+      <คำอธิบาย>
+<p><small>ต.ค. <var data-var='date'>12</var>, <var data-var='time>02:17</var> UTC</small><br><strong>ได้รับการแก้ไขแล้ว</strong> - ขณะนี้เราได้แก้ไขปัญหาการเชื่อมต่อแล้ว และสามารถเข้าถึงบริการได้อีกครั้ง</p><p><small>ต.ค. <var data-var='date'>12</var>, <var data-var='time>02:08</var> UTC</small><br><strong>กำลังตรวจสอบ</strong> - ขณะนี้เรากำลังตรวจสอบปัญหาการเชื่อมต่อภายในซึ่งเป็นสาเหตุที่ทำให้ไม่สามารถใช้พอร์ทัล LIR และการเข้าถึงได้ เราจะแจ้งข้อมูลอัปเดตเกี่ยวกับประกาศนี้ทันทีที่เรามีข้อมูลเพิ่มเติม</p> </description>
+      <pubDate>ส. 12 ต.ค. 2567 02:17:18 +0000</pubDate>
+      <ลิงค์>https://status.ripe.net/incidents/06tjh1kcgynz</ลิงค์>
+      <guid>https://status.ripe.net/incidents/06tjh1kcgynz</guid>
+    </รายการ>
+    <รายการ>
+      <title>การเปลี่ยนแปลงโครงร่างของฐานข้อมูล RIPE</title>
+      <คำอธิบาย>
+<p><small>ก.ย. <var data-var='date'>26</var>, <var data-var='time>15:53</var> UTC</small><br><strong>เสร็จสมบูรณ์</strong> - การบำรุงรักษาตามกำหนดเสร็จเรียบร้อยแล้ว</p><p><small>ก.ย. <var data-var='date>26</var>, <var data-var='time>13:00</var> UTC</small><br><strong>กำลังดำเนินการ</strong> - การบำรุงรักษาตามกำหนดกำลังดำเนินการอยู่ เราจะอัปเดตตามความจำเป็น</p><p><small>ก.ย. <var data-var='date>16</var>, <var data-var='time>11:47</var> UTC</small><br><strong>อัปเดต</strong> - เราจะดำเนินการบำรุงรักษาตามกำหนดการในช่วงนี้</p><p><small>Sep <var data-var='date'>16</var>, <var data-var='time>11:44</var> UTC</small><br><strong>Scheduled</strong> - ในวันพฤหัสบดีที่ 26 กันยายน ทีม DB วางแผนที่จะนำการเปลี่ยนแปลงโครงร่างฐานข้อมูลไปใช้กับเซิร์ฟเวอร์ Whois ฐานข้อมูล RIPE อาจไม่พร้อมใช้งานชั่วคราวสำหรับการอัปเดตเป็นระยะเวลาสั้นๆ คำถามต่างๆ จะไม่ได้รับผลกระทบ</p> </description>
+      <pubDate>พฤ. 26 ก.ย. 2567 15:53:00 +0000</pubDate>
+      <maintenanceEndDate>พฤหัสบดีที่ 26 กันยายน 2024 19:00:00 +0000</maintenanceEndDate>
+      ลิงค์https://status.ripe.net/incidents/p76b87xbydjb
+      สถานะ:https://status.ripe.net/incidents/p76b87xbydjb
+    </รายการ>
+    <รายการ>
+      <title>ประสิทธิภาพ RIPEstat ลดลงเนื่องจากการเตรียมการบำรุงรักษา</title>
+      <คำอธิบาย>
+<p><small>ก.ย. <var data-var='date'>26</var>, <var data-var='time>09:11</var> UTC</small><br><strong>ได้รับการแก้ไขแล้ว</strong> - เราได้ตัดสินใจที่จะเลื่อนการย้ายชุดข้อมูลที่ใหญ่ที่สุดของเรา (HBase) ไปยังสภาพแวดล้อมใหม่เป็นเวลาหนึ่งเดือน เนื่องจากความซับซ้อนของการโยกย้ายนี้ เราจึงต้องการให้แน่ใจว่า RIPEstat จะยังคงทำงานต่อไป และไม่รู้สึกมั่นใจที่จะดำเนินการต่อเมื่อการกระทำดังกล่าวอาจทำให้บริการหยุดชะงักอย่างรุนแรง<br /><br />เราวางแผนที่จะเผยแพร่บทความ RIPE Labs พร้อมรายละเอียดเพิ่มเติมในเร็วๆ นี้ รวมถึงข้อมูลประวัติที่จะล่าช้าเมื่อการโยกย้ายเสร็จสมบูรณ์<br /><br />คุณสามารถอ่านประกาศได้ที่:<br />https://mailman.ripe.net/archives/list/ncc-services-wg@ripe.net/thread/4CMKBRORQ5WTDCTTN3WHBEUCOJZEZTPV/</p><p><small>Sep <var data-var='date'>23</var>, <var data-var='time'>15:42</var> UTC</small><br><strong>อัปเดต</strong> - เราไม่สามารถส่งออกข้อมูลประวัติสำหรับชุดข้อมูลของเราสี่ชุดจากทั้งหมดยี่สิบชุดได้ ดังนั้น เราจะไม่สามารถจัดเตรียมข้อมูลประวัติโดยรวมสำหรับการเรียกใช้ API ต่อไปนี้และวิดเจ็ตที่เกี่ยวข้องได้สักระยะหนึ่งหลังจากที่เราทำการโยกย้ายเสร็จสิ้นแล้ว การโยกย้ายสำหรับข้อมูลที่เหลือยังคงดำเนินการอยู่:<br /><br /> * as-path-length<br /> * as-routing-consistency<br /> * asn-neighbours<br /> * asn-neighbours-history<br /> * bgp-update-activity<br /> * bgp-state<br /> * bgp-updates<br /> * bgplay<br /> * ris-peerings<br /> * สถานะการกำหนดเส้นทาง<br /> * visibility<br /><br /><br />สามารถดูคำชี้แจงโดยละเอียดเพิ่มเติมได้ที่: https://mailman.ripe.net/archives/list/ncc-services-wg@ripe.net/thread/I2IXTP47JLMFSI4VFLPQP5DYBX3WWP7P/</p><p><small>Sep <var data-var='date'>20</var>, <var data-var='time>16:33</var> UTC</small><br><strong>การตรวจสอบ</strong> - เรายังคงเผชิญกับปัญหาซอฟต์แวร์และประสิทธิภาพฮาร์ดแวร์ที่ลดลงระหว่างการส่งออกข้อมูลจากฐานข้อมูล HBase ของเรา อย่างไรก็ตาม อัตราข้อผิดพลาดของแอปพลิเคชันได้กลับมาอยู่ในระดับปกติแล้ว</p><p><small>Sep <var data-var='date'>19</var>, <var data-var='time>15:34</var> UTC</small><br><strong>อัปเดต</strong> - เรายังคงเผชิญกับปัญหาต่างๆ ระหว่างการส่งออกข้อมูล</p><p><small>ก.ย. <var data-var='date'>18</var>, <var data-var='time>09:14</var> UTC</small><br><strong>ระบุแล้ว</strong> - ประสิทธิภาพของแหล่งข้อมูล RIPEstat หลายแหล่งลดลงในปัจจุบันเนื่องจากการเตรียมการซ่อมบำรุง เรากำลังส่งออกชุดข้อมูลที่เกี่ยวข้องกับ RIS จากฐานข้อมูล (HBase) ของเราเพื่อเตรียมการสำหรับการโยกย้ายไปยังสภาพแวดล้อมใหม่ การส่งออกนี้ทำให้สภาพแวดล้อมการผลิตของเรามีภาระงานสูง ซึ่งส่งผลกระทบต่อประสิทธิภาพอย่างเห็นได้ชัด<br /><br />เราขออภัยในความไม่สะดวกที่อาจเกิดขึ้น เนื่องจากการเตรียมการจะดำเนินต่อไปจนถึงสิ้นเดือน ซึ่งเราวางแผนที่จะโยกย้ายชุดข้อมูลทั้งหมด</p> </description>
+      <pubDate>พฤ. 26 ก.ย. 2567 09:11:43 +0000</pubDate>
+      ลิงค์https://status.ripe.net/incidents/kvzg8gg81n16
+      <guid>https://status.ripe.net/incidents/kvzg8gg81n16</guid>
+    </รายการ>
+    <รายการ>
+      <title>การบำรุงรักษาตามแผน: www.ripe.net และ RIPE Labs</title>
+      <คำอธิบาย>
+<p><small>ก.ย. <var data-var='date'>25</var>, <var data-var='time>16:00</var> UTC</small><br><strong>เสร็จสมบูรณ์</strong> - การบำรุงรักษาตามกำหนดเสร็จเรียบร้อยแล้ว</p><p><small>ก.ย. <var data-var='date'>25</var>, <var data-var='time>15:00</var> UTC</small><br><strong>กำลังดำเนินการ</strong> - การบำรุงรักษาตามกำหนดกำลังดำเนินการอยู่ในขณะนี้ เราจะอัปเดตตามความจำเป็น</p><p><small>ก.ย. <var data-var='date'>19</var>, <var data-var='time>12:12</var> UTC</small><br><strong>ตามกำหนดการ</strong> - www.ripe.net และ RIPE Labs (labs.ripe.net) จะดำเนินการบำรุงรักษาตามกำหนดในช่วงเวลานี้</p> </description>
+      <pubDate>พุธที่ 25 กันยายน 2024 16:00:04 +0000</pubDate>
+      <maintenanceEndDate>พุธ, 25 ก.ย. 2024 16:00:00 +0000</maintenanceEndDate>
+      ลิงค์https://status.ripe.net/incidents/bwqt62dnj31x
+      สถานะ:https://status.ripe.net/incidents/bwqt62dnj31x
+    </รายการ>
+    <รายการ>
+      <title>ปัญหาที่เกิดขึ้นเป็นระยะๆ กับแอปพลิเคชัน RIPEstat</title>
+      <คำอธิบาย>
+<p><small>ก.ย. <var data-var='date'>25</var>, <var data-var='time>12:54</var> UTC</small><br><strong>แก้ไขแล้ว</strong> - บริการได้ดำเนินการตามปกติตั้งแต่วันที่ 24 กันยายน 2024 เวลา 17:40 UTC เหตุการณ์ได้รับการแก้ไขหลังจากรีบูตโครงสร้างพื้นฐานเบื้องหลัง RIPEstat เราจะติดตามสถานการณ์ต่อไป แต่ถือว่าเหตุการณ์นี้ปิดไปแล้ว</p><p><small>Sep <var data-var='date'>24</var>, <var data-var='time>16:44</var> UTC</small><br><strong>อัปเดต</strong> - เราได้สังเกตเห็นว่าเธรดติดขัดเนื่องจากระบบแบ็กเอนด์หมดเวลา ซึ่งทำให้แบ็กเอนด์เวิร์กเกอร์ติดขัด การรีสตาร์ทอินสแตนซ์แบ็กเอนด์เพียงอินสแตนซ์เดียวทำให้ระบบเริ่มตอบสนอง สาเหตุที่แท้จริงยังไม่ชัดเจนในขณะนี้ การรีสตาร์ทระบบแบ็กเอนด์ทั้งหมดช่วยบรรเทาปัญหาได้ในตอนนี้ เราจะตรวจสอบปัญหานี้เพิ่มเติมในภายหลัง</p><p><small>ก.ย. <var data-var='date'>24</var>, <var data-var='time'>16:14</var> UTC</small><br><strong>อัปเดต</strong> - เรายังคงตรวจสอบปัญหานี้อยู่</p><p><small>ก.ย. <var data-var='date'>24</var>, <var data-var='time>15:50</var> UTC</small><br><strong>กำลังตรวจสอบ</strong> - เรากำลังประสบปัญหาเป็นระยะๆ กับแอปพลิเคชัน RIPEstat เรากำลังตรวจสอบและจะอัปเดตประกาศนี้เมื่อเราทราบข้อมูลเพิ่มเติม</p> </description>
+      <pubDate>พุธที่ 25 กันยายน 2024 12:54:17 +0000</pubDate>
+      ลิงค์ https://status.ripe.net/incidents/yrplrj8btyt9
+      สถานะ:https://status.ripe.net/incidents/yrplrj8btyt9
+    </รายการ>
+    <รายการ>
+      <title>การโยกย้าย RIPEstat ไปยังที่เก็บข้อมูลแบ็กเอนด์ที่แตกต่างกัน</title>
+      <คำอธิบาย>
+<p><small>ก.ย. <var data-var='date'>24</var>, <var data-var='time>15:00</var> UTC</small><br><strong>เสร็จสมบูรณ์</strong> - การบำรุงรักษาตามกำหนดเสร็จเรียบร้อยแล้ว</p><p><small>ก.ย. <var data-var='date>24</var>, <var data-var='time>07:00</var> UTC</small><br><strong>กำลังดำเนินการ</strong> - การบำรุงรักษาตามกำหนดกำลังดำเนินการอยู่ เราจะอัปเดตตามความจำเป็น</p><p><small>ก.ย. <var data-var='date>20</var>, <var data-var='time>10:52</var> UTC</small><br><strong>ตามกำหนดการ</strong> - เนื่องจากเป็นส่วนหนึ่งของแผนลดขนาดพื้นที่ศูนย์ข้อมูลของเรา เราจะย้ายชุดข้อมูล RIPEstat ส่วนใหญ่ไปยังสภาพแวดล้อมใหม่ในช่วงเวลาการบำรุงรักษานี้<br /><br />เราจะพยายามลดการหยุดชะงักของบริการให้น้อยที่สุด อย่างไรก็ตาม ในช่วงเวลาการบำรุงรักษานี้ ทั้งอินเทอร์เฟซผู้ใช้ RIPEstat และ API ข้อมูลจะไม่สามารถใช้งานได้เป็นระยะเวลาหนึ่ง</p> </description>
+      <pubDate>อ. 24 ก.ย. 2024 15:00:02 +0000</pubDate>
+      <maintenanceEndDate>อ., 24 ก.ย. 2024 15:00:00 +0000</maintenanceEndDate>
+      <ลิงค์>https://status.ripe.net/incidents/s18jr85q5hs6</ลิงค์>
+      สถานะ:https://status.ripe.net/incidents/s18jr85q5hs6
+    </รายการ>
+    <รายการ>
+      <title>การบำรุงรักษาโครงสร้างพื้นฐานของคอนโทรลเลอร์ Atlas ของ RIPE</title>
+      <คำอธิบาย>
+<p><small>ก.ย. <var data-var='date'>24</var>, <var data-var='time>13:58</var> UTC</small><br><strong>เสร็จสมบูรณ์</strong> - การบำรุงรักษาเสร็จสิ้นแล้ว</p><p><small>ก.ย. <var data-var='date'>24</var>, <var data-var='time>09:35</var> UTC</small><br><strong>กำลังดำเนินการ</strong> - ขณะนี้กำลังดำเนินการบำรุงรักษาตามกำหนด เราจะอัปเดตตามความจำเป็น</p><p><small>ก.ย. <var data-var='date'>24</var>, <var data-var='time>09:34</var> UTC</small><br><strong>ตามกำหนดเวลา</strong> - เราจะดำเนินการบำรุงรักษาตามกำหนดในช่วงเวลานี้ โดยเราจะปรับใช้การเปลี่ยนแปลงโค้ดและโครงสร้างพื้นฐานที่มุ่งหมายเพื่อป้องกันไม่ให้เกิดกรณีที่ไม่เสถียรซึ่งเคยพบมาก่อนเกิดขึ้นอีก <br />ผลข้างเคียงคือ เราคาดว่าหัววัดทั้งหมดจะตัดการเชื่อมต่อในเร็วๆ นี้</p> </description>
+      <pubDate>อ. 24 ก.ย. 2024 13:58:06 +0000</pubDate>
+      <maintenanceEndDate>อ., 24 ก.ย. 2024 15:05:00 +0000</maintenanceEndDate>
+      ลิงค์https://status.ripe.net/incidents/57wnhnjtn6gc
+      ภาษาไทย: <guid>https://status.ripe.net/incidents/57wnhnjtn6gc</guid>
+    </รายการ>
+    <รายการ>
+      <title>RIPE Atlas: ประสิทธิภาพลดลง</title>
+      <คำอธิบาย>
+<p><small>ก.ย. <var data-var='date'>18</var>, <var data-var='time>08:49</var> UTC</small><br><strong>แก้ไขแล้ว</strong> - ปัญหาได้รับการแก้ไขแล้ว โพรบและแองเคอร์ถูกตัดการเชื่อมต่อจากโครงสร้างพื้นฐาน RIPE Atlas เนื่องจากปัญหาประสิทธิภาพในเครื่องจักรควบคุมใหม่ ปัญหาพื้นฐานได้รับการแก้ไขโดยการเปลี่ยนประเภทของที่เก็บข้อมูลที่ใช้ในโหนดที่ได้รับผลกระทบ รวมถึงการปรับปรุงเสถียรภาพอื่นๆ เรากำลังตรวจสอบระบบอย่างแข็งขัน และกำลังดำเนินการแก้ไขเพิ่มเติมในอนาคต</p><p><small>ก.ย. <var data-var='date'>17</var>, <var data-var='time>10:57</var> UTC</small><br><strong>กำลังตรวจสอบ</strong> - ขณะนี้โพรบและแองเคอร์กำลังเชื่อมต่อใหม่ แต่อาจใช้เวลาสักระยะก่อนที่การเชื่อมต่อทั้งหมดจะเสถียรและกลับมาออนไลน์อีกครั้ง เรากำลังติดตามสถานการณ์</p><p><small>ก.ย. <var data-var='date>17</var>, <var data-var='time>06:12</var> UTC</small><br><strong>กำลังตรวจสอบ</strong> - ผู้ใช้ RIPE Atlas อาจประสบปัญหาเนื่องจากตัวควบคุมมีปัญหา ขณะนี้แองเคอร์ RIPE Atlas แสดงว่าไม่ได้เชื่อมต่ออยู่ เช่นเดียวกับโพรบจำนวนมาก เรากำลังตรวจสอบเพิ่มเติม<br /><br />หมายเหตุ: โพรบกำลังรวบรวมผลการวัดที่กำลังดำเนินการอยู่ และจะส่งมอบผลเมื่อระบบมีเสถียรภาพ</p> </description>
+      <pubDate>พุธที่ 18 กันยายน 2024 08:49:45 +0000</pubDate>
+      ลิงค์https://status.ripe.net/incidents/7t5jw79bn210
+      ภาษาไทย:https://status.ripe.net/incidents/7t5jw79bn210
+    </รายการ>
+    <รายการ>
+      <title>ปัญหาเกี่ยวกับ atlas.ripe.net</title>
+      <คำอธิบาย>
+<p><small>ก.ย. <var data-var='date'>17</var>, <var data-var='time>19:42</var> UTC</small><br><strong>แก้ไขปัญหาแล้ว</strong> - ในระหว่างการบำรุงรักษาตามแผนบนอุปกรณ์เครือข่ายของเรา UI ของ Atlas และชิ้นส่วนภายในอื่นๆ บางส่วนไม่สามารถใช้งานได้ เราได้ดำเนินการอัปเกรดเสร็จสิ้นแล้วและได้คืนค่าบริการแล้ว เราจะอัปเดตเหตุการณ์นี้พร้อมรายงานผลการตรวจสอบในภายหลังในเร็วๆ นี้</p> </description>
+      <pubDate>อ. 17 ก.ย. 2024 19:42:12 +0000</pubDate>
+      <ลิงค์>https://status.ripe.net/incidents/2f4zqcjqlpd0</ลิงค์>
+      <guid>https://status.ripe.net/incidents/2f4zqcjqlpd0</guid>
+    </รายการ>
+    <รายการ>
+      <title>วิดเจ็ตและจุดสิ้นสุด RIPEstat หลายรายการไม่พร้อมใช้งาน</title>
+      <คำอธิบาย>
+<p><small>ก.ย. <var data-var='date'>17</var>, <var data-var='time>09:39</var> UTC</small><br><strong>ได้รับการแก้ไขแล้ว</strong> - ปัญหาได้รับการแก้ไขแล้วตั้งแต่ประมาณ 15:30 น. ของเมื่อวานนี้<br /><br />เราได้ติดตามบริการตลอดคืนและบริการได้ฟื้นตัวแล้ว</p><p><small>ก.ย. <var data-var='date'>16</var>, <var data-var='time>13:10</var> UTC</small><br><strong>ระบุแล้ว</strong> - วิดเจ็ต RIPEstat หลายรายการและการเรียก API ข้อมูลไม่สามารถใช้งานได้เนื่องจากมีปัญหาเกี่ยวกับ API พื้นฐาน ซึ่งรวมถึงอย่างน้อย whois-object-last-updated, historical-whois, abuse-contact-finder, network-info<br /><br />เรากำลังพยายามบรรเทาปัญหาที่เกิดขึ้นกับ API ที่เป็นพื้นฐาน และจะบล็อกการเข้าถึงสำหรับ IP บางส่วนที่ส่งคำขอจำนวนมากเกินไป</p> </description>
+      <pubDate>อ. 17 ก.ย. 2024 09:39:09 +0000</pubDate>
+      ลิงค์https://status.ripe.net/incidents/yzbgg7n329tg
+      <guid>https://status.ripe.net/incidents/yzbgg7n329tg</guid>
+    </รายการ>
+    <รายการ>
+      <title>ข้อมูล RIS ล่าช้าเนื่องจากงานบำรุงรักษาที่กำลังดำเนินอยู่</title>
+      <คำอธิบาย>
+<p><small>ก.ย. <var data-var='date'>16</var>, <var data-var='time>13:32</var> UTC</small><br><strong>แก้ไขแล้ว</strong> - เราได้ติดตามสถานการณ์นี้มาเป็นเวลาหนึ่งสัปดาห์แล้วและสถานการณ์ก็ค่อนข้างคงที่ เราจะสร้างการอัปเดตใหม่หากปัญหาเกิดขึ้นอีกครั้ง</p><p><small>ก.ย. <var data-var='date> 8</var>, <var data-var='time>08:19</var> UTC</small><br><strong>กำลังตรวจสอบ</strong> - เนื่องจากงานบำรุงรักษาโครงสร้างพื้นฐานแบ็กเอนด์ RIS บางส่วนกำลังดำเนินการอยู่ ข้อมูล RIS บางส่วนจึงอาจล่าช้า เรากำลังติดตามสถานการณ์และจะเติมข้อมูลกลับคืนเมื่องานบำรุงรักษาเสร็จสิ้น</p> </description>
+      <pubDate>จ. 16 ก.ย. 2024 13:32:23 +0000</pubDate>
+      ลิงค์https://status.ripe.net/incidents/wmtgdlpzzky6
+      <guid>https://status.ripe.net/incidents/wmtgdlpzzky6</guid>
+    </รายการ>
+    <รายการ>
+      <title>การบำรุงรักษาที่มีผลกระทบต่อกระจกมองภาพ RIPEstat</title>
+      <คำอธิบาย>
+<p><small>ก.ย. <var data-var='date'>16</var>, <var data-var='time>12:28</var> UTC</small><br><strong>เสร็จสมบูรณ์</strong> - การบำรุงรักษาเสร็จสิ้นแล้ว เรากำลังตรวจสอบประสิทธิภาพการทำงานของแอปพลิเคชัน</p><p><small>ก.ย. <var data-var='date>16</var>, <var data-var='time>11:30</var> UTC</small><br><strong>อัปเดต</strong> - การบำรุงรักษาส่วนแรกเสร็จสิ้นเรียบร้อยแล้ว เราพบปัญหาฮาร์ดแวร์ (PDU) หลังจากย้ายเครื่องจักร เราคาดว่าเราจะสามารถดำเนินการบำรุงรักษาให้เสร็จสิ้นได้ในวันนี้</p><p><small>ก.ย. <var data-var='date>16</var>, <var data-var='time>07:50</var> UTC</small><br><strong>กำลังดำเนินการ</strong> - การบำรุงรักษาได้เริ่มต้นขึ้นแล้ว กระจกมองภาพจะไม่รับข้อมูลใหม่จนกว่าการบำรุงรักษาจะเสร็จสิ้น</p><p><small>ก.ย. <var data-var='date>13</var>, <var data-var='time>08:55</var> UTC</small><br><strong>ตามกำหนดการ</strong> - ในเช้าวันจันทร์ เราจะดำเนินการบำรุงรักษาฐานข้อมูลที่ใช้โดยกระจกมองภาพ RIPEstat<br /><br />ซึ่งหมายความว่ากระจกมองภาพ RIPEstat จะไม่สามารถใช้งานได้ในช่วงเวลาดังกล่าว (ผ่าน API หรือเว็บไซต์) ส่วนประกอบอื่นๆ ของ RIPEstat จะไม่ได้รับผลกระทบ</p> </description>
+      <pubDate>จ. 16 ก.ย. 2024 12:28:14 +0000</pubDate>
+      <maintenanceEndDate>จันทร์ที่ 16 ก.ย. 2024 15:00:00 +0000</maintenanceEndDate>
+      ลิงค์https://status.ripe.net/incidents/9r1fw37fbt8q
+      สถานะ:https://status.ripe.net/incidents/9r1fw37fbt8q
+    </รายการ>
+    <รายการ>
+      <title>ปัญหาเกี่ยวกับ DNSMON</title>
+      <คำอธิบาย>
+<p><small>Sep <var data-var='date'>12</var>, <var data-var='time>12:32</var> UTC</small><br><strong>Resolved</strong> - งานรวบรวมข้อมูลบางส่วนไม่สามารถทำงานได้อย่างถูกต้อง ส่งผลให้เกิดช่องว่างใน API ข้อมูล DNSMON และส่งผลให้ข้อมูลแสดงภาพมีช่องโหว่ด้วย ขณะนี้ ช่องโหว่เหล่านี้ได้รับการเติมเต็มแล้ว และเราจะเพิ่มการตรวจสอบที่ปรับปรุงให้ดีขึ้นเพื่อให้สามารถแก้ไขปัญหาดังกล่าวได้เร็วขึ้น</p><p><small>Sep <var data-var='date'> 7</var>, <var data-var='time>09:37</var> UTC</small><br><strong>กำลังตรวจสอบ</strong> - ขณะนี้เรากำลังตรวจสอบปัญหาที่เกิดขึ้นกับ DNSMON ซึ่งกำลังประสบปัญหาขัดข้องบางส่วน</p> </description>
+      <pubDate>พฤ. 12 ก.ย. 2567 12:32:47 +0000</pubDate>
+      ลิงค์https://status.ripe.net/incidents/n8yvrqmpbj4d
+      สถานะ:https://status.ripe.net/incidents/n8yvrqmpbj4d
+    </รายการ>
+    <รายการ>
+      <title>RIPE Atlas: ประสิทธิภาพลดลง</title>
+      <คำอธิบาย>
+<p><small>ก.ย. <var data-var='date'>12</var>, <var data-var='time>09:27</var> UTC</small><br><strong>ได้รับการแก้ไขแล้ว</strong> - เหตุการณ์นี้ได้รับการแก้ไขแล้ว</p><p><small>ก.ย. <var data-var='date>10</var>, <var data-var='time>08:51</var> UTC</small><br><strong>กำลังตรวจสอบ</strong> - ปัญหาดังกล่าวดูเหมือนจะได้รับการแก้ไขแล้ว และเรากำลังตรวจสอบบริการอยู่</p><p><small>ก.ย. <var data-var='date'> 9</var>, <var data-var='time>15:18</var> UTC</small><br><strong>กำลังตรวจสอบ</strong> - ผู้ใช้ RIPE Atlas อาจประสบปัญหาการหมดเวลาและล้มเหลวในการวัดผล เรากำลังดำเนินการแก้ไขปัญหานี้ซึ่งส่งผลต่อทั้งแบ็กเอนด์และฟรอนต์เอนด์</p> </description>
+      <pubDate>พฤ. 12 ก.ย. 2567 09:27:09 +0000</pubDate>
+      <ลิงค์>https://status.ripe.net/incidents/w88qn0jlvjpy</ลิงค์>
+      <guid>https://status.ripe.net/incidents/w88qn0jlvjpy</guid>
+    </รายการ>
+    <รายการ>
+      <title>RIPE Atlas: ปัญหาการเชื่อมต่อของโพรบ</title>
+      <คำอธิบาย>
+<p><small>ก.ย. <var data-var='date>11</var>, <var data-var='time>09:51</var> UTC</small><br><strong>ได้รับการแก้ไขแล้ว</strong> - ขณะนี้เราได้แก้ไขตัวควบคุมที่ผิดพลาด และคลี่คลายปัญหาคอขวดที่ซึ่งโพรบจำนวนมากเกินไปพยายามเชื่อมต่อใหม่พร้อมกัน</p><p><small>Sep <var data-var='date'>10</var>, <var data-var='time>16:50</var> UTC</small><br><strong>การตรวจสอบ</strong> - ปัญหาพื้นฐานได้รับการแก้ไขแล้ว และโพรบกำลังเชื่อมต่อใหม่กับตัวควบคุมที่ได้รับผลกระทบ</p><p><small>Sep <var data-var='date'>10</var>, <var data-var='time>12:53</var> UTC</small><br><strong>กำลังตรวจสอบ</strong> - โพรบประมาณ 4,000 ตัวกำลังประสบปัญหาการเชื่อมต่อเนื่องจากตัวควบคุมมีข้อผิดพลาด เรากำลังดำเนินการแก้ไขปัญหานี้</p> </description>
+      <pubDate>พุธที่ 11 กันยายน 2024 09:51:31 +0000</pubDate>
+      ลิงค์https://status.ripe.net/incidents/x650czbvx5nl
+      <guid>https://status.ripe.net/incidents/x650czbvx5nl</guid>
+    </รายการ>
+    <รายการ>
+      <title>บริการที่ลดคุณภาพ: การเข้าถึง RIPE NCC</title>
+      <คำอธิบาย>
+<p><small>ก.ย. <var data-var='date'>11</var>, <var data-var='time>07:19</var> UTC</small><br><strong>ได้รับการแก้ไขแล้ว</strong> - เหตุการณ์นี้ได้รับการแก้ไขแล้ว</p><p><small>ก.ย. <var data-var='date>10</var>, <var data-var='time>11:43</var> UTC</small><br><strong>กำลังตรวจสอบ</strong> - ขณะนี้เรากำลังตรวจสอบปัญหาที่เกิดขึ้นเป็นระยะๆ ซึ่งทำให้การเข้าถึง RIPE NCC และบริการที่เชื่อมต่อไม่สามารถใช้งานได้ เราจะแจ้งข้อมูลอัปเดตเกี่ยวกับประกาศนี้ทันทีที่เรามีข้อมูลเพิ่มเติม</p> </description>
+      <pubDate>พุธที่ 11 กันยายน 2024 07:19:23 +0000</pubDate>
+      ลิงค์https://status.ripe.net/incidents/8z2b3w5xw4h4
+      <guid>https://status.ripe.net/incidents/8z2b3w5xw4h4</guid>
+    </รายการ>
+    <รายการ>
+      <title>ปัญหาการเข้าถึงพอร์ทัล LIR</title>
+      <คำอธิบาย>
+<p><small>ก.ย. <var data-var='date'> 9</var>, <var data-var='time>12:25</var> UTC</small><br><strong>ได้รับการแก้ไขแล้ว</strong> - ขณะนี้เราได้แก้ไขปัญหาการเชื่อมต่อแล้ว และสามารถเข้าถึง LIR Portal ได้อีกครั้ง</p><p><small>ก.ย. <var data-var='date'> 9</var>, <var data-var='time>12:02</var> UTC</small><br><strong>กำลังตรวจสอบ</strong> - ขณะนี้เรากำลังตรวจสอบปัญหาการเชื่อมต่อภายในที่ทำให้ไม่สามารถใช้ LIR Portal ได้ เราจะแจ้งข้อมูลอัปเดตเกี่ยวกับประกาศนี้ทันทีที่เรามีข้อมูลเพิ่มเติม</p> </description>
+      <pubDate>จ. 09 ก.ย. 2024 12:25:09 +0000</pubDate>
+      ลิงค์ https://status.ripe.net/incidents/sn1gxdyvg6wb
+      สถานะ:https://status.ripe.net/incidents/sn1gxdyvg6wb
+    </รายการ>
+    <รายการ>
+      <title>แผงควบคุม RPKI ไม่สามารถใช้งานได้</title>
+      <คำอธิบาย>
+<p><small>ก.ย. <var data-var='date'> 9</var>, <var data-var='time>12:17</var> UTC</small><br><strong>ได้รับการแก้ไขแล้ว</strong> - เหตุการณ์นี้ได้รับการแก้ไขแล้ว</p><p><small>ก.ย. <var data-var='date'> 9</var>, <var data-var='time>12:17</var> UTC</small><br><strong>อัปเดต</strong> - เรากำลังดำเนินการตรวจสอบปัญหานี้ต่อไป</p><p><small>ก.ย. <var data-var='date'> 9</var>, <var data-var='time>11:37</var> UTC</small><br><strong>กำลังตรวจสอบ</strong> - ขณะนี้เรากำลังตรวจสอบปัญหาการเชื่อมต่อภายใน</p> </description>
+      <pubDate>จ. 09 ก.ย. 2024 12:17:31 +0000</pubDate>
+      ลิงค์https://status.ripe.net/incidents/gd53nc39nchn
+      สถานะ:https://status.ripe.net/incidents/gd53nc39nchn
+    </รายการ>
+    <รายการ>
+      <title>ปัญหาเกี่ยวกับ SSO และบริการที่เกี่ยวข้อง</title>
+      <คำอธิบาย>
+<p><small>ก.ย. <var data-var='date'> 9</var>, <var data-var='time>11:55</var> UTC</small><br><strong>แก้ไขแล้ว</strong> - เราพบปัญหาเกี่ยวกับ Single Sign-On (SSO) ซึ่งส่งผลกระทบต่อบริการที่เกี่ยวข้อง รวมถึง RIPE NCC Access, LIR Portal และ RIPE Database ตั้งแต่เวลา 12:50 - 13:10 น. (UTC+2) ขณะนี้ปัญหาได้รับการแก้ไขแล้ว</p> </description>
+      <pubDate>จ. 09 ก.ย. 2024 11:55:07 +0000</pubDate>
+      ลิงค์https://status.ripe.net/incidents/8z1r1t0drhgz
+      <guid>https://status.ripe.net/incidents/8z1r1t0drhgz</guid>
+    </รายการ>
+    <รายการ>
+      <title>แดชบอร์ด RPKI: การบำรุงรักษาประจำเดือน</title>
+      <คำอธิบาย>
+<p><small>ก.ย. <var data-var='date'> 9</var>, <var data-var='time>10:00</var> UTC</small><br><strong>เสร็จสมบูรณ์</strong> - การบำรุงรักษาตามกำหนดเสร็จเรียบร้อยแล้ว</p><p><small>ก.ย. <var data-var='date'> 9</var>, <var data-var='time>09:00</var> UTC</small><br><strong>กำลังดำเนินการ</strong> - การบำรุงรักษาตามกำหนดกำลังดำเนินการอยู่ เราจะอัปเดตตามความจำเป็น</p><p><small>ก.ย. <var data-var='date'> 2</var>, <var data-var='time>13:19</var> UTC</small><br><strong>ตามกำหนดเวลา</strong> - การบำรุงรักษาตามกำหนดนี้มีผลกระทบต่อ: RPKI (RPKI Dashboard, Publication as a Service (API endpoints))</p> </description>
+      <pubDate>จ. 09 ก.ย. 2024 10:00:02 +0000</pubDate>
+      <maintenanceEndDate>จันทร์, 09 ก.ย. 2024 10:00:00 +0000</maintenanceEndDate>
+      <ลิงค์>https://status.ripe.net/incidents/v95bg5q0wvg2</ลิงค์>
+      <guid>https://status.ripe.net/incidents/v95bg5q0wvg2</guid>
+    </รายการ>
+    <รายการ>
+      <title>RIPE NCC Access (SSO) จะไม่สามารถใช้งานได้เนื่องจากอยู่ระหว่างการบำรุงรักษา</title>
+      <คำอธิบาย>
+<p><small>ก.ย. <var data-var='date'> 5</var>, <var data-var='time>15:17</var> UTC</small><br><strong>เสร็จสมบูรณ์</strong> - การบำรุงรักษาเสร็จเรียบร้อยแล้ว</p><p><small>ก.ย. <var data-var='date'> 5</var>, <var data-var='time>15:15</var> UTC</small><br><strong>กำลังดำเนินการ</strong> - การบำรุงรักษาตามกำหนดกำลังดำเนินการอยู่ เราจะอัปเดตตามความจำเป็น</p><p><small>ก.ย. <var data-var='date'> 3</var>, <var data-var='time>09:23</var> UTC</small><br><strong>ตามกำหนดการ</strong> - เราจะดำเนินการบำรุงรักษาตามกำหนดในช่วงเวลานี้</p> </description>
+      <pubDate>พฤ. 05 ก.ย. 2024 15:17:31 +0000</pubDate>
+      <maintenanceEndDate>พฤหัสบดี, 05 ก.ย. 2024 15:45:00 +0000</maintenanceEndDate>
+      ลิงค์https://status.ripe.net/incidents/77h3c5y3g900
+      <guid>https://status.ripe.net/incidents/77h3c5y3g900</guid>
+    </รายการ>
+    <รายการ>
+      <title>ปัญหาเกี่ยวกับหัววัด RIPE Atlas</title>
+      <คำอธิบาย>
+<p><small>ส.ค. <var data-var='date'>28</var>, <var data-var='time>11:01</var> UTC</small><br><strong>ได้รับการแก้ไขแล้ว</strong> - ปัญหาพื้นฐานกับส่วนประกอบโครงสร้างพื้นฐานที่ได้รับผลกระทบได้รับการแก้ไขแล้ว งานที่เกี่ยวข้องกับส่วนประกอบเหล่านี้จะดำเนินต่อไป โดยมีแนวโน้มว่าหัววัดจะเชื่อมต่อใหม่เมื่อได้รับผลกระทบจากปัญหานี้</p><p><small>ส.ค. <var data-var='date'>27</var>, <var data-var='time>07:57</var> UTC</small><br><strong>อัปเดต</strong> - สถานการณ์ดีขึ้นหลังจากช่วงสุดสัปดาห์ อย่างไรก็ตาม เรายังคงเฝ้าติดตามสถานะปัจจุบันอย่างใกล้ชิด</p><p><small>ส.ค. <var data-var='date'>23</var>, <var data-var='time>12:59</var> UTC</small><br><strong>กำลังติดตาม</strong> - สถานการณ์ได้รับการแก้ไขแล้วสำหรับกลุ่มตัวอย่างที่ได้รับผลกระทบส่วนใหญ่ คาดว่าหัววัดบางส่วนจะสามารถเชื่อมต่อใหม่ได้ในช่วงสุดสัปดาห์นี้</p><p><small>ส.ค. <var data-var='date'>23</var>, <var data-var='time>08:35</var> UTC</small><br><strong>ระบุแล้ว</strong> - เราได้ระบุสาเหตุของปัญหาแล้ว และกำลังดำเนินการแก้ไข</p><p><small>ส.ค. <var data-var='date'>22</var>, <var data-var='time>10:32</var> UTC</small><br><strong>กำลังตรวจสอบ</strong> - เรากำลังตรวจสอบปัญหาที่ดูเหมือนจะขัดขวางไม่ให้โพรบ RIPE Atlas เชื่อมต่อกับตัวควบคุม ซึ่งอาจทำให้โพรบถูกตัดการเชื่อมต่อหรือมีการรายงานปัญหาดังกล่าว เรากำลังตรวจสอบและจะอัปเดตประกาศนี้เมื่อเราทราบข้อมูลเพิ่มเติม</p> </description>
+      <pubDate>พุธที่ 28 ส.ค. 2567 11:01:08 +0000</pubDate>
+      ลิงค์https://status.ripe.net/incidents/cxp20fvs62mc
+      ภาษาไทย:https://status.ripe.net/incidents/cxp20fvs62mc
+    </รายการ>
+    <รายการ>
+      <title>การบำรุงรักษาตามแผน: ระบบห้องสมุดเอกสาร</title>
+      <คำอธิบาย>
+<p><small>ส.ค. <var data-var='date'>19</var>, <var data-var='time>06:00</var> UTC</small><br><strong>เสร็จสมบูรณ์</strong> - การบำรุงรักษาตามกำหนดเสร็จเรียบร้อยแล้ว</p><p><small>ส.ค. <var data-var='date'>19</var>, <var data-var='time>05:30</var> UTC</small><br><strong>กำลังดำเนินการ</strong> - การบำรุงรักษาตามกำหนดกำลังดำเนินการอยู่ เราจะอัปเดตตามความจำเป็น</p><p><small>ส.ค. <var data-var='date'>15</var>, <var data-var='time>13:04</var> UTC</small><br><strong>ตามกำหนดการ</strong> - เราจะดำเนินการบำรุงรักษาตามแผนบนระบบห้องสมุดเอกสารของเราในวันที่ 19 สิงหาคม ช่วงเวลาสำหรับการบำรุงรักษาคือ: 05:30 UTC - 06:00 UTC ในช่วงเวลานี้ ส่วนตั๋วในพอร์ทัล LIR จะไม่สามารถใช้งานได้หรือไม่สามารถใช้งานได้อย่างเต็มประสิทธิภาพ</p> </description>
+      <pubDate>จ. 19 ส.ค. 2024 06:00:02 +0000</pubDate>
+      <maintenanceEndDate>จันทร์ที่ 19 ส.ค. 2024 06:00:00 +0000</maintenanceEndDate>
+      <ลิงค์>https://status.ripe.net/incidents/d96w993993pq</ลิงค์>
+      สถานะ:https://status.ripe.net/incidents/d96w993993pq
+    </รายการ>
+  </ช่อง>
+</rss>
