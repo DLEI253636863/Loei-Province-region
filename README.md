@@ -1,3 +1,7 @@
+การไฟฟ้าส่วนภูมิภาคอำเภอเชียงคาน
+042 821 060
+
+ https://g.co/kgs/g3GpnZg
 ![Screenshot_20241007_121011](https://github.com/user-attachments/assets/7490365d-2375-44c0-905a-3ac2f5976167)
 ![IMG_20241007_141543](https://github.com/user-attachments/assets/eba08428-661b-4b95-808d-3ed02cbe4c97)
 ![IMG_20241007_141558](https://github.com/user-attachments/assets/39b2361a-8bb7-42b0-88b0-b5087f1b8e03)
